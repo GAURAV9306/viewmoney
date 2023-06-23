@@ -1,0 +1,69 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.footer{
+    display: flex;
+}
+
+footer .lock {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+footer .phone {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+footer .mail {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+.invest {
+    padding: 20px;
+}
+
+.invest h4 {
+    padding: 10px;
+}
+
+.useful {
+    padding: 20px;
+}
+
+.useful h4 {
+    padding: 10px;
+}
+
+.form input {
+    background-color: black;
+    padding: 5px;
+    border: 2px solid white;
+}
+
+.form h4 {
+    padding: 10px;
+}
+
+.button {
+    padding: 10px;
+}
+
+.button button {
+    padding: 10px;
+    background-color: green;
+}
+
+@media (max-width:960px) {
+    footer{
+        max-width: 960px;
+        
+    }
+}
